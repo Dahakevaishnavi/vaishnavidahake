@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Profile Image -->
+    <center>
+        <img src="profile.jpg" alt="Profile Picture">
+        <h2>Your Name</h2>
+        <p><strong>Email:</strong> yourname@example.com | <strong>Phone:</strong> +1234567890</p>
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+    </center>
+
+    <!-- Summary -->
+    <h3>Summary</h3>
+    <p>A dedicated and enthusiastic professional with expertise in [Your Field]. Passionate about problem-solving and innovative solutions.</p>
+
+    <!-- Skills -->
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java, C++</li>
+        <li>Web Development & UI/UX Design</li>
+        <li>Database Management (SQL, MongoDB)</li>
+    </ul>
+
+    <!-- Education -->
+    <h3>Education</h3>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Bachelor's in Computer Science</td>
+            <td>XYZ University</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>High School Diploma</td>
+            <td>ABC School</td>
+            <td>2019</td>
+        </tr>
+    </table>
+
+    <!-- Work Experience -->
+    <h3>Work Experience</h3>
+    <ul>
+        <li><strong>Software Developer</strong> - ABC Company (2023-Present)</li>
+        <li><strong>Intern</strong> - XYZ Tech (2022-2023)</li>
+    </ul>
+
+    <!-- Projects -->
+    <h3>Projects</h3>
+    <ul>
+        <li><a href="https://github.com/yourgithub" target="_blank">Portfolio Website</a> - A responsive personal portfolio.</li>
+        <li><a href="https://github.com/yourgithub" target="_blank">E-commerce Website</a> - A full-stack e-commerce platform.</li>
+    </ul>
+</div>
+
+</body>
+</html>
